@@ -32,6 +32,7 @@ header div {
     background-repeat: no-repeat;
     background-size: contain;
     color: var(--very-dark-cyan);
+    margin-bottom: 20px;
 }
 
 /* ------ Build ------ */
@@ -42,8 +43,6 @@ header div {
 }
 
 .build h1 {
-    /* height: 60px;
-    width: 260px; */
     font-family: var(--font-Poppins);
     font-weight: var(--font-semi-bold);
     font-size: 22px;
@@ -53,7 +52,6 @@ header div {
 }
 
 .build p {
-    /* height: 120px; */
     padding: 30px 38px;
     text-align: center;
     font-size: 16px;
@@ -66,7 +64,7 @@ header div {
     align-items: center;
 }
 
-.build img{
+.build img {
     height: 210px;
     width: 300px;
     margin-top: 55px;
