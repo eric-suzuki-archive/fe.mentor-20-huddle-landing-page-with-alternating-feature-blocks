@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
 
-
 :root {
     /* ------ Color Primary ------ */
     --pink: hsl(322, 100%, 66%);
@@ -18,16 +17,14 @@
     --font-regular: 400;
     --font-semi-bold: 600;
     --font-bold: 700;
-    --font-Poppins: "Poppins", sans-serif;
-    --font-Open-Sans: "Open Sans", sans-serif;
+    --font-Poppins: 'Poppins', sans-serif;
+    --font-Open-Sans: 'Open Sans', sans-serif;
     --font-size: 18px;
     --font-style: normal;
 }
 
-
 /* ------ Main ------ */
 body {
-    /* background: white; */
     font-family: var(--font-Open-Sans);
     font-size: var(--font-size);
     font-weight: var(--font-regular);
@@ -44,9 +41,32 @@ main {
 }
 
 .container {
+    background: brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 375px;
+}
+
+/* ------ Block ------ */
+
+/* .block_01, .block_02, .block_03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+} */
+
+/* ------ button ------ */
+button{
+    background-color: var(--pink);
+    height: 40px;
+    width: 240px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: var(--font-Open-Sans);
+    font-weight: var(--font-bold);
 }
