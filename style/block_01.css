@@ -32,6 +32,7 @@ header div {
     background-repeat: no-repeat;
     background-size: contain;
     color: var(--very-dark-cyan);
+    margin-bottom: 20px;
 }
 
 /* ------ Build ------ */
@@ -66,7 +67,7 @@ header div {
     align-items: center;
 }
 
-.build img{
+.build img {
     height: 210px;
     width: 300px;
     margin-top: 55px;

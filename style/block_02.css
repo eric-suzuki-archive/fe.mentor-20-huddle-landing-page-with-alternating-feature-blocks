@@ -1,0 +1,23 @@
+/* ------ Block_02 ------ */
+.block_02 {
+    height: 1830px;
+    /* background-color: white; */
+}
+
+.block_02 img {
+    /* box-sizing: content-box; */
+    background-size: contain;
+    height: 195px;
+    width: 245px;
+    padding: 60px 45px;
+}
+
+.grow,
+.flowing,
+.your {
+    background-color: white;
+    width: 335px;
+    height: 487px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
