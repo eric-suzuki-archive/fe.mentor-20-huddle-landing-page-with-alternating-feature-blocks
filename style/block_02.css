@@ -9,7 +9,14 @@
     background-size: contain;
     height: 195px;
     width: 245px;
-    padding: 60px 45px;
+    padding: 55px 45px;
+}
+
+.block_02 p {
+    font-size: 16px;
+    padding: 20px 40px 0;
+    text-align: center;
+    line-height: 18px;
 }
 
 .grow,
@@ -20,4 +27,15 @@
     height: 487px;
     border-radius: 25px;
     margin-top: 40px;
+    box-shadow: 1px 3px 10px var(--grayish-blue);
+}
+
+h2,
+h3,
+h4 {
+    color: var(--very-dark-cyan);
+    font-family: var(--font-Poppins);
+    font-weight: var(--font-semi-bold);
+    text-align: center;
+    font-size: 22px;
 }
