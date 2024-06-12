@@ -47,12 +47,12 @@ header div {
     font-weight: var(--font-semi-bold);
     font-size: 22px;
     line-height: 34px;
-    padding: 90px 58px 0;
+    padding: 85px 58px 0;
     text-align: center;
 }
 
 .build p {
-    padding: 30px 38px;
+    padding: 25px 38px 30px;
     text-align: center;
     font-size: 16px;
     line-height: 24px;
