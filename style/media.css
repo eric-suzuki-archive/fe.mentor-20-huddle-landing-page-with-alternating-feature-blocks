@@ -17,7 +17,7 @@
         width: 400px;
         height: 80px;
         border-radius: 40px;
-        margin-top: 40px;
+        margin-top: 38px;
         font-size: 20px;
     }
 
@@ -139,11 +139,12 @@
     h3,
     h4 {
         text-align: left;
-        font-size: 34px;
+        font-size: 30px;
     }
 
     /* ------ Float ------ */
     .float {
+        justify-content: flex-start;
         width: 805px;
         height: 280px;
         top: 2440px;
@@ -151,11 +152,55 @@
 
     h5 {
         font-size: 32px;
+        margin-top: 75px;
     }
 
     /* ------ Block_03 ------ */
     .block_03 {
+        display: flex;
+        flex-direction: row;
         height: 560px;
         width: 1440px;
+    }
+
+    .description_01 {
+        margin-top: 190px;
+        padding-left: 120px;
+    }
+
+    .description_01 img {
+        height: 40px;
+        width: 240px;
+    }
+
+    .maps {
+        margin-top: 40px;
+        width: 330px;
+        padding-right: 0;
+    }
+
+    .description_02,
+    .description_03,
+    .description_04 {
+        margin-top: 280px;
+        padding: 0;
+    }
+
+    .description_02 {
+        margin-left: 145px;
+    }
+
+    .description_03 {
+        margin-left: 115px;
+    }
+
+    .description_04 {
+        margin-left: 140px;
+        align-items: flex-start;
+    }
+
+    .description_04 p {
+        /* font-size: 15px; */
+        margin-top: 180px;
     }
 }
