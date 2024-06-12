@@ -41,7 +41,6 @@ main {
 }
 
 .container {
-    background: brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
