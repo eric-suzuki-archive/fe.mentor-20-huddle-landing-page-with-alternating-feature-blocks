@@ -10,7 +10,6 @@
     height: 175px;
     border-radius: 25px;
     box-shadow: 1px 3px 10px var(--grayish-blue);
-    color: var();
     top: 2440px;
     z-index: 10;
 }
